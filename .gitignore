@@ -266,15 +266,15 @@ transformer_model.pt
 new_model/best_model.pth
 
 .idea/workspace.xml
-new_model/arxiv-metadata-oai-snapshot.json
-new_model/best_model_v3.pth
-new_model/best_fine_tuned_model_final_cuneyt.pth
-new_model/best_model_gpt2.pth
-new_model/best_model_gpt2_big.pth
-new_model/best_model_v2.pth
-new_model/best_own_model_final_cuneyt.pth
-new_model/random_test_data_100.json
-new_model/random_test_data_1000.json
-new_model/training_data.json
-new_model/vocab.txt
+arxiv-metadata-oai-snapshot.json
+best_model_v3.pth
+best_fine_tuned_model_final_cuneyt.pth
+best_model_gpt2.pth
+best_model_gpt2_big.pth
+best_model_v2.pth
+best_own_model_final_cuneyt.pth
+random_test_data_100.json
+random_test_data_1000.json
+vocab.txt
 training_data.json
+best_model.pth
