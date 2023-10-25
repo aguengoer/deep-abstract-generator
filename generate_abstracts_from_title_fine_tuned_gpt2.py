@@ -107,7 +107,7 @@ def main():
     print(f"Average METEOR score: {avg_meteor_score}")
 
     # Save results_df to CSV file
-    results_df.to_csv("results_from_fine-tuned-gpt2.csv",
+    results_df.to_csv("results_from_fine-tuned-gpt2_bu.csv",
                       columns=["title", "real_abstract", "generated_abstract", "bleu_score", "rouge_score",
                                "meteor_score"],
                       index=False)

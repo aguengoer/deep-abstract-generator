@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load data from csv and only take the first 100 rows
-df_gpt2 = pd.read_csv('results/results_from_gpt2.csv').head(1000)
-df_ft_gpt2 = pd.read_csv('results/results_from_fine-tuned-gpt2.csv').head(1000)
+df_gpt2 = pd.read_csv('results/results_from_ft_gpt2.csv').head(1000)
+df_ft_gpt2 = pd.read_csv('results/results_from_fine-tuned-gpt2_bu.csv').head(1000)
 df_custom = pd.read_csv('results/results_from_custom_transformer.csv').head(1000)
 
 # List of dataframes

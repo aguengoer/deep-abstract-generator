@@ -146,7 +146,7 @@ def main():
     plot_results(results_df)
 
     # Save results_df to CSV file
-    results_df.to_csv("results_from_gpt2.csv",
+    results_df.to_csv("results_from_ft_gpt2.csv",
                       columns=["title", "real_abstract", "best_generated_abstract", "bleu_score", "rouge_score",
                                "meteor_score"],
                       index=False)
